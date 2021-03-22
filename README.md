@@ -63,4 +63,5 @@ Commands implemented so far
 - Get-BoxUsers
 - Remove-BoxFolderSharingLink
 - Remove-BoxFileSharingLink
+- Remove-BoxUser
 
