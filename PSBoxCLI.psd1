@@ -19,7 +19,7 @@ Check the CLI documentation here for all possible BoxCLI commands and add to thi
 RootModule = 'PSBoxCLIFunctions.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.7'
+ModuleVersion = '0.8'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -31,7 +31,7 @@ GUID = '6ad96f5e-e4b0-4790-b64c-e1e8a0d77824'
 Author = 'Hal Sclater'
 
 # Company or vendor of this module
-CompanyName = 'Cloudrun Ltd'
+CompanyName = 'Cloudrun Ltd, www.cloudrun.co.uk'
 
 # Copyright statement for this module
 Copyright = '(c) 2021 Cloudrun Ltd. All rights reserved.  Licensed with GNU GENERAL PUBLIC LICENSE.'

@@ -1,5 +1,3 @@
-
-
 Function Get-BoxUser{
     Param ([string]$email,[string]$userID)
 
@@ -31,7 +29,6 @@ Gets the Box User details from an email address or UserID.
 .DESCRIPTION
 Gets the Box User details from an email address or UserID using Box CLI.
 Get the user directly using User ID, or search using their email address. Returns an object with all the Box user details.
-
 
 .PARAMETER email
 Specifies the users email address
@@ -129,10 +126,10 @@ else {
 
 <#
 .SYNOPSIS
-Deletes a Box User account using UserID. Default is not to force delete if the user still has files.
+Deletes a Box User account using the Box UserID. Default is not to force delete if the user still has files.
 
 .DESCRIPTION
-Deletes a Box User account using UserID. Adding -force $true will force delete, even if the user still has files. 
+Deletes a Box User account using the Box UserID. Adding -force $true will force delete, even if the user still has files. 
 
 .PARAMETER userID
 Specifies the users Box ID (mandatory).
@@ -169,6 +166,7 @@ Function Get-BoxGroup{
 <#
 .SYNOPSIS
 Gets the Box Group details from a group ID. 
+
 .DESCRIPTION
 Gets the Box Group details from a group ID using Box CLI.
 Use Get-BoxGroups to get all box groups and find the ID first.
@@ -199,7 +197,6 @@ Function Get-BoxGroups{
         write-host "Error: No groups found" -ForegroundColor Red
         exit
         }
-
 
 <#
 .SYNOPSIS
@@ -298,7 +295,6 @@ Specifies the ID of the group membership
 membershipID
 
 .OUTPUTS
-
 
 .EXAMPLE
 PS> $addgroup = Add-BoxGroupMember -userID $boxuser.id -GroupID "5736585174"
@@ -467,7 +463,6 @@ Creates a new Box folder using parent folder ID and Name
 
 .DESCRIPTION
 Creates a new Box folder using parent folder ID and Name
-
 
 .PARAMETER parentID
 Specifies the parent Box folder ID (mandatory).
